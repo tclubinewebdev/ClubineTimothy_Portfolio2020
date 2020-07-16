@@ -127,13 +127,13 @@ ul.skills {
   margin: 2px;
 }
 
-ul.ContactMenu{
+ul.inlineList{
   list-style: none;
   margin: 0;
   padding: 0;    
   display: inline-flex;
 }
-.ContactMenu li{
+.inlineList li{
   padding:10px;
   
 }
@@ -228,13 +228,14 @@ a.social:hover {
   }
   .resume h2{
     text-decoration: underline;
-    text-emphasis: bold;
+    color: #1B5071;   
   }
   .resume p{
     padding-bottom: 10px;
   }
   .resume ul{
     columns: 2;
+     
   }
 
   footer {
