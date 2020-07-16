@@ -63,15 +63,10 @@ header {
   padding-top: 60px;
 }
 
-.experienceHeader{
-  background:#f7f5f0;
-  padding-bottom: 0px;
-  
-}
-
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -80,9 +75,16 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
   }
+
 header .profile-image:hover {
   transform: scale(1.4) rotate(360deg);
 
+}
+
+.experienceHeader{
+  background:#f7f5f0;
+  min-height: 0px;
+    
 }
 
 .tag {
@@ -123,6 +125,17 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+}
+
+ul.ContactMenu{
+  list-style: none;
+  margin: 0;
+  padding: 0;    
+  display: inline-flex;
+}
+.ContactMenu li{
+  padding:10px;
+  
 }
 
 .skills li:nth-child(odd) {
@@ -207,9 +220,21 @@ a.social:hover {
     line-height: 1.6em;
   }
   
-  main .summary{
+  main .resume{
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .resume h2{
+    text-decoration: underline;
+    text-emphasis: bold;
+  }
+  .resume p{
+    padding-bottom: 10px;
+  }
+  .resume ul{
+    columns: 2;
   }
 
   footer {
@@ -217,15 +242,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-  ul.ContactMenu{
-    list-style: none;
-    margin: 0;
-    padding: 0;    
-    display: inline-flex;
-  }
-  ul.ContactMenu li{
-    padding:10px;
-  }
+  
 }
 
 
