@@ -127,14 +127,15 @@ ul.skills {
   margin: 2px;
 }
 
-ul.inlineList{
+.inlineList{
   list-style: none;
   margin: 0;
   padding: 0;    
   display: inline-flex;
 }
 .inlineList li{
-  padding:10px;
+  padding-right:10px;
+  
   
 }
 
@@ -224,6 +225,7 @@ a.social:hover {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     
   }
   .resume h2{
@@ -233,8 +235,9 @@ a.social:hover {
   .resume p{
     padding-bottom: 10px;
   }
-  .resume ul{
+  .two-column-lists ul{
     columns: 2;
+    column-gap: 10px;
      
   }
 
@@ -242,7 +245,7 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
+  } 
   
 }
 
