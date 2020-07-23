@@ -76,6 +76,15 @@ header .profile-image {
   transition: all .5s;
   }
 
+header .resume-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+  }
+
 header .profile-image:hover {
   transform: scale(1.4) rotate(360deg);
 
@@ -84,6 +93,7 @@ header .profile-image:hover {
 .experienceHeader{
   background:#CDB493;
   min-height: 0px;
+  
     
 }
 
@@ -123,7 +133,7 @@ ul.skills {
   display: inline-block;
   background: #ff9904;
   color: white;
-  padding: 5px 10px;
+  padding: 5px;
   margin: 2px;
 }
 
@@ -237,8 +247,20 @@ a.social:hover {
   }
   .two-column-lists ul{
     columns: 2;
-    column-gap: 10px;
+    column-gap: 40px;
      
+  }
+
+  .column {
+    float:left;
+    width: 50%;
+    padding: 0px;
+  }
+
+  @media screen and (max-width:600px){
+    .column{
+      width:100%;
+    }
   }
 
   footer {
@@ -247,6 +269,9 @@ a.social:hover {
     margin: 40px auto;
   } 
   
+  .spacing li{
+    padding-bottom: 10px;
+  }
 }
 
 
